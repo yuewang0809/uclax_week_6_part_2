@@ -27,9 +27,7 @@ h1 {
  * Custom translucent site header, CHANGE THE COLORS
  */
 .site-header {
-  background-color: #FF7171;
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px); }
+  background-color: #FF7171; }
 
 .site-header a {
   color: #fff;
