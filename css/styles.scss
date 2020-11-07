@@ -1,0 +1,95 @@
+.container {
+  max-width: 960px;
+}
+body {
+  font-family: Brandon Grotesque,sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #FF7171;
+  background-color: #FFF3F6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  color:black;
+}
+img {
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px; }
+h1{
+  font-weight: bold;
+  font-size:400%;
+}
+/*
+ * Custom translucent site header, CHANGE THE COLORS
+ */
+
+.site-header {
+  background-color: #FF7171;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #F5C0CD;
+  text-decoration: none;
+}
+
+.bg-light {
+    background-color: #FFF3F6!important;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* ADD UP TP 5 COLUMNS */
+h1{
+  text-align: center;
+}
+.marketing .col-lg-2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.marketing h2 {
+  font-weight: 600;
+}
+
+span{
+  font-style:oblique;
+  color:#FF7171;
+}
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: -.05rem;
+}
+
+/* FOOTER*/
+.footer {
+  padding-bottom: 50px;
+  padding-top:50px;
+  background-color: #FF7171;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF7171;
+    border-color: #FF7171;
+}
