@@ -1,31 +1,12 @@
+/*
+* Top Bar
+*/
 .container {
   max-width: 960px; }
 
-body {
-  font-family: Brandon Grotesque,sans-serif;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #FF7171;
-  background-color: #FFF3F6;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-p {
-  color: black; }
-
-img {
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px; }
-
-h1 {
-  font-weight: bold;
-  font-size: 400%; }
-
 /*
- * Custom translucent site header, CHANGE THE COLORS
- */
+* Custom translucent site header, CHANGE THE COLORS
+*/
 .site-header {
   background-color: #FF7171; }
 
@@ -40,43 +21,15 @@ h1 {
 .bg-light {
   background-color: #FFF3F6 !important; }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-/* ADD UP TP 5 COLUMNS */
-h1 {
-  text-align: center; }
+.jumbotron h1 {
+  font-weight: 300; }
 
-.marketing .col-lg-2 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-  margin-right: 1rem;
-  margin-left: 1rem; }
+.jumbotron .container {
+  max-width: 40rem; }
 
-.marketing h2 {
-  font-weight: 600; }
-
-span {
-  font-style: oblique;
-  color: #FF7171; }
-
-/* Featurettes
-------------------------- */
-.featurette-divider {
-  margin: 5rem 0;
-  /* Space out the Bootstrap <hr> more */ }
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 2;
-  letter-spacing: -.05rem; }
-
-/* FOOTER*/
-.footer {
-  padding-bottom: 50px;
-  padding-top: 50px;
-  background-color: #FF7171; }
-
+/*
+* General
+*/
 .btn-primary {
   color: #fff;
   background-color: #FF7171;
@@ -93,3 +46,20 @@ span {
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem; } }
+
+body {
+  font-family: Brandon Grotesque,sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #FF7171;
+  background-color: #FFF3F6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+p {
+  color: black; }
+
+h1 {
+  font-weight: bold;
+  font-size: 400%; }
